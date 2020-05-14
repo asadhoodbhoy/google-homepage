@@ -9,18 +9,22 @@
 <body>
 
 <header>
-    <div id="left">
+    <div class="left">
          <ul>
-           <li><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-            <li><a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a></li>
+           <li id="lefttop"><a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+            <li id="righttop"><a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA" >Store</a></li>
         </ul>
     </div>
 
-    <div id="right">
+    <div class="right">
         <ul>
-          <li><a href="https://accounts.google.com/">Gmail</a></li>
-          <li><a href="https://www.google.ca/imghp?hl=en&tab=wi&authuser=0&ogbl">images</a></li>
+          <li id="lefttop"><a href="https://accounts.google.com/" >Gmail</a></li>
+          <li id="righttop"><a href="https://www.google.ca/imghp?hl=en&tab=wi&authuser=0&ogbl" >Images</a></li>
+          <li id="righttop"><a id = "grid" href="#"></a></li>
         </ul>
+        
+        
+        <img id = "pp" src="https://media-exp1.licdn.com/dms/image/C4E03AQEouD4SwR9jgA/profile-displayphoto-shrink_100_100/0?e=1594857600&v=beta&t=dlGhDKKmf81UrjDrzhk6rhGvZX7lbBCculRjURaOKvU">
     </div>
 
 </header>
@@ -32,18 +36,47 @@
     <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
 </div>
 
-<div id="form">
-    <form action="search">
+<div class="form">
+    <form action="search" class="imageandsearch">
         <input type="text" class="search">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/833px-Google_mic.svg.png" class="formimg">
     </form>
 </div>
 
 <div class="button">
-        <button type="Google Search" id="submit">Search</button> 
-        <button type="I'm feeling lucky" id="submit">I'm Feeling Lucky</button>
+        <button type="Google Search" id="submit">Google Search</button> 
+        <button type="I'm feeling lucky" id="lucky">I'm Feeling Lucky</button>
 </div>
 
 </main>
-    
+
+<footer class="top">
+    <div class="left">
+    <ul>
+        <li id="leftbottomtop">Canada</li>
+    </ul>
+    </div>
+</footer>
+
+<footer>
+
+    <div class="left">
+        <ul>
+          <li id="leftbottom"><a href="https://ads.google.com/intl/en_ca/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"">Advertising</a></li>
+          <li id="middlebottom"><a href="https://smallbusiness.withgoogle.com/intl/en_ca/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CA">Business</a></li>
+          <li id="rightbottom"><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a></li>
+       </ul>
+   </div>
+
+   <div class="right">
+       <ul>
+         <li id="leftbottom"><a href="https://accounts.google.com/">Privacy</a></li>
+         <li id="middlebottom"><a href="https://www.google.ca/imghp?hl=en&tab=wi&authuser=0&ogbl">Terms</a></li>
+         <li id="rightbottom"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+       </ul>
+
+   </div>
+
+</footer>
  
 </body>
